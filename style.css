@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* AQUÍ EMPIEZAN LOS ESTILOS DE LA CABECERA */
+header{
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/001/842/936/small/dark-blue-background-in-polygonal-style-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 26px;
+}
+.mov2{
+    padding-left: 10px;
+}
+.Login_Register a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Login_Register a:hover{
+    color: orange;
+}
+.Login_Register a:active{
+    color: rgb(80, 80, 255);   
+}
+p{
+    text-align: right;
+    padding-top:2px;
+}
+.fondo_cabecera{
+    background-color: rgb(36, 36, 194);
+}
+.fondo_cabecera__item{
+    display:inline-block;
+}
+nav{
+    padding: 10px;
+}
+h1{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: orange;
+}
+.estilo-nav{
+    padding-left: 90px;
+    list-style: none;
+}
+.estilo-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.estilo-nav__item a:hover{
+    color: orange;
+}
+.estilo-nav__item a:active{
+    color: rgb(80, 80, 255);
+}
+/* AQUÍ EMPIEZA LOS ESTILOS DEL BODY */
+
+/* FOTOS QUE VAN CAMBIANDO CADA 4s*/
+body{
+    background-color: whitesmoke;
+}
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+}
+.slider img{
+    padding-top: 10px;
+    width: 100%;
+    height: 70%;
+
+}
+@keyframes cambio{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+/* FOTOS DE LOS PRODUCTOS EN VENTA */
+
+.espacios_foto{
+    padding-left: 35px;
+}
+.espacios_foto_fila2{
+    padding-top: 15px;
+    padding-left: 35px;
+}
+.espacios_foto_fila3{
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.espacios_foto_fila4{
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.estilo_figure__item{
+    display:inline-block;
+}
