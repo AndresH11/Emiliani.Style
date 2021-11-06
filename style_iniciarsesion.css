@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 1px solid gray;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.form_correo_electronico{
+    padding-right: 46px;
+}
+.form_contraseña{
+    padding-top: 15px
+}
+.iniciar_sesion{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
