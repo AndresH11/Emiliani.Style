@@ -6,7 +6,7 @@
 
 /* AQUÍ EMPIEZAN LOS ESTILOS DE LA CABECERA */
 header{
-    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/001/842/936/small/dark-blue-background-in-polygonal-style-vector.jpg);
+    background-image:url(https://image.freepik.com/vector-gratis/fondo-negro-degradado-lineas-onduladas_23-2149147612.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,14 +31,14 @@ header{
     color: orange;
 }
 .Login_Register a:active{
-    color: rgb(80, 80, 255);   
+    color: orangered;   
 }
 p{
     text-align: right;
     padding-top:2px;
 }
 .fondo_cabecera{
-    background-color: rgb(36, 36, 194);
+    background-color: maroon;
 }
 .fondo_cabecera__item{
     display:inline-block;
@@ -66,13 +66,17 @@ h1{
     color: orange;
 }
 .estilo-nav__item a:active{
-    color: rgb(80, 80, 255);
+    color: orangered;
 }
 /* AQUÍ EMPIEZA LOS ESTILOS DEL BODY */
 
 /* FOTOS QUE VAN CAMBIANDO CADA 4s*/
-body{
-    background-color: whitesmoke;
+main{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-negro-degradado-texturas-doradas_23-2149151860.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .slider{
     width: 95%;
@@ -109,18 +113,22 @@ body{
 
 .espacios_foto{
     padding-left: 35px;
+    color: white;
 }
 .espacios_foto_fila2{
     padding-top: 15px;
     padding-left: 35px;
+    color: white;
 }
 .espacios_foto_fila3{
     padding-left: 35px;
     padding-top: 15px;
+    color: white;
 }
 .espacios_foto_fila4{
     padding-left: 35px;
     padding-top: 15px;
+    color: white;
 }
 .estilo_figure__item{
     display:inline-block;
