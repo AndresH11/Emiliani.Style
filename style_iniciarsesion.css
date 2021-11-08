@@ -1,17 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-pared-ladrillo-textura-negro_53876-63583.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
-    margin-top: 200px;
+}
+main{
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-pared-ladrillo-textura-negro_53876-63583.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    text-align: center;
+    margin-top: 150px;
     margin-left: 250px;
     margin-right: 250px;
     border: 1px solid gray;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-top: 30px;
 }
+h2{
+    padding-bottom: 10px;
+    color: rgb(190, 190, 190);
+}
 .form_correo_electronico{
-    padding-right: 46px;
+    padding-right: 60px;
+    color: rgb(190, 190, 190);
+}
+.form_correo_electronico__item{
+    font-size: 20px;
 }
 .form_contraseña{
-    padding-top: 15px
+    padding-top: 15px;
+    color: rgb(190, 190, 190);
+}
+.form_contraseña__item{
+    font-size: 20px;
 }
 .iniciar_sesion{
     padding-top: 15px;
