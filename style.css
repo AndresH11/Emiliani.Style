@@ -77,6 +77,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 15px;
+    border-bottom: 1px solid brown;
 }
 .slider{
     width: 95%;
@@ -112,24 +114,42 @@ main{
 /* FOTOS DE LOS PRODUCTOS EN VENTA */
 
 .espacios_foto{
-    padding-left: 35px;
+    margin-left: 25px;
     color: white;
+    border: 5px solid white;
+    background: white;
 }
 .espacios_foto_fila2{
-    padding-top: 15px;
-    padding-left: 35px;
+    margin-top: 15px;
+    margin-left: 25px;
     color: white;
+    border: 5px solid white;
 }
 .espacios_foto_fila3{
-    padding-left: 35px;
-    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
     color: white;
+    border: 5px solid white;
 }
 .espacios_foto_fila4{
-    padding-left: 35px;
-    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
     color: white;
+    border: 5px solid white;
 }
 .estilo_figure__item{
     display:inline-block;
+}
+.color_figcaption{
+    text-decoration: none;
+    color: black;
+}
+
+/*AQUÍ EMPIEZA EL FOOTER*/
+footer{
+    background-image:url(https://image.freepik.com/vector-gratis/fondo-negro-degradado-lineas-onduladas_23-2149147612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

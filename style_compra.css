@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* AQUÍ EMPIEZAN LOS ESTILOS DE LA CABECERA */
+header{
+    background-image:url(https://img.freepik.com/vector-gratis/vector-fondo-estampado-purpura-blanco_53876-81246.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 26px;
+}
+.mov2{
+    padding-left: 10px;
+}
+.Login_Register a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Login_Register a:hover{
+    color: mediumorchid;
+}
+.Login_Register a:active{
+    color: aqua;   
+}
+.registro_inicio{
+    text-align: right;
+    padding-top:2px;
+}
+.fondo_cabecera{
+    background-color: maroon;
+}
+.fondo_cabecera__item{
+    display:inline-block;
+}
+nav{
+    padding: 10px;
+}
+.nombre_de_empresa{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: aqua;
+    font-size: 60px
+}
+.estilo-nav{
+    padding-left: 90px;
+    list-style: none;
+}
+.estilo-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.estilo-nav__item a:hover{
+    color: mediumorchid;
+}
+.estilo-nav__item a:active{
+    color: aqua;
+}
+.dimensiones{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+.posicion_img{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.section_img{
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    background-color: whitesmoke;
+}
+.ubicacion__item{
+    display: inline-block;
+}
+.ubicacion{
+    padding-bottom: 15px;
+}
+#posicion{
+    padding-left: 20px;
+}
+.section_compra{
+    border: 5px solid whitesmoke;
+    margin:auto;
+    width: 300px;
+    background-color: whitesmoke;
+}
+.boton1{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.precio_valor{
+    display:inline-block;
+    
+}
+.envio{
+    padding-left: 15px;
+}
+#valor{
+    padding-left: 15px;
+}
+.nombre_del_producto{
+    padding-top: 27px;
+    padding-left: 15px;
+}
+.posicion_precio_valor{
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 15px;
+}
+.posicion_forma_de_pago{
+    padding-top: 27px;
+    padding-left: 15px;
+}
+.posicion_cantidad{
+    padding-top: 27px;
+    padding-left: 15px;
+}
+.informacion{
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid mediumorchid;
+}
+.fondo_main{
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-semitono-circulos_23-2148907689.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.informacion_2{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+.informacion_2 h3{
+    padding-left: 20px;
+}
+.informacion_2 h1{
+    padding-left: 10px;
+}
+.informacion_1{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#espacio_informacion_h1{
+    margin-left: 10px;
+}
+.tamaño{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+footer{
+    background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-estampado-purpura-blanco_53876-81246.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.informacion_footer{
+    margin-left: 15px;
+    color:aqua;
+}
+.informacion_footer__item a{
+    text-decoration: none;
+    color: aqua;
+}
+.informacion_footer__item a:hover{
+    color: mediumorchid;
+}
+.informacion_footer__item p{
+    padding-top: 5px;
+}
+.informacion_footer__item_div{
+    padding-top: 5px;
+}
